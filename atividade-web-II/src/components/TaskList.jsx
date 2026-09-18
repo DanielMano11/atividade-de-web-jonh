@@ -14,7 +14,9 @@ const TaskList = ({ tarefas, onToggle, onDelete }) => {
           <p>AI SIM! todas as tarefas foram concluídas!</p>
         )
       ) : (
-        <p>Nenhuma tarefa cadastrada.</p>
+        <div>
+          Nenhuma tarefa cadastrada.
+        </div>
       )}
       <br />
       <div>

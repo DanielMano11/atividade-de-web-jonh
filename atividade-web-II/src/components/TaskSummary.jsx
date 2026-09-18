@@ -4,16 +4,13 @@ const TaskSummary = ({ total, concluidas, pendentes }) => {
   return (
     <div>
       <div>
-        <h3>Total</h3>
-        <p>{total}</p>
+        <h3>Total - {total}</h3>
       </div>
       <div>
-        <h3>Concluidas</h3>
-        <p>{concluidas}</p>
+        <h3>Concluidas - {concluidas}</h3>
       </div>
       <div>
-        <h3>Pendentes</h3>
-        <p>{pendentes}</p>
+        <h3>Pendentes - {pendentes}</h3>
       </div>
     </div>
   );
